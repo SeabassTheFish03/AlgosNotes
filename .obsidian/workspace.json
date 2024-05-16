@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homework Solutions/Homework 2.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homework Solutions/Homework 2.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homework Solutions/Homework 2.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homework Solutions/Homework 2.md"
+                "file": "README.md"
               }
             }
           }
@@ -150,9 +150,10 @@
   "active": "9c4bf04bd4169d57",
   "lastOpenFiles": [
     "README.md",
+    "CS385 - Algorithms.md",
+    "Homework Solutions/Homework 2.md",
     "LICENSE",
     "Homework Solutions/Homework 1.md",
-    "Homework Solutions/Homework 2.md",
     "Homework Solutions/Homework 3.md",
     "Homework Solutions/Homework 5.md",
     "Homework Solutions/Homework 4.md",
@@ -183,7 +184,6 @@
     "Classic Algorithms and Data Structures/~syncthing~The Union-Find Data Structure.md.tmp",
     "Homework Solutions/~syncthing~Homework Solutions.md.tmp",
     "Excalidraw/Drawing 2024-04-17 11.46.16.excalidraw.md",
-    "Excalidraw/Example DiGraph.md",
     "Excalidraw/~syncthing~Greedient Descent.excalidraw.md.tmp"
   ]
 }
