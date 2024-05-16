@@ -149,6 +149,8 @@
   },
   "active": "9c4bf04bd4169d57",
   "lastOpenFiles": [
+    "README.md",
+    "LICENSE",
     "Homework Solutions/Homework 1.md",
     "Homework Solutions/Homework 2.md",
     "Homework Solutions/Homework 3.md",
@@ -182,8 +184,6 @@
     "Homework Solutions/~syncthing~Homework Solutions.md.tmp",
     "Excalidraw/Drawing 2024-04-17 11.46.16.excalidraw.md",
     "Excalidraw/Example DiGraph.md",
-    "Excalidraw/Example Graph.md",
-    "Excalidraw/~syncthing~Greedient Descent.excalidraw.md.tmp",
-    "~syncthing~Greedy Algorithms.md.tmp"
+    "Excalidraw/~syncthing~Greedient Descent.excalidraw.md.tmp"
   ]
 }
