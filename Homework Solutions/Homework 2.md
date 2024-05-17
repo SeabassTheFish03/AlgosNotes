@@ -77,7 +77,7 @@ This algorithm works by starting from the outside of the array and working in. S
 Rather than checking every single combination of items in the array, we can start by picking the most expensive (and most valuable) item, and seeing how costly we can make the other item before breaking out of the budget. The budget check is key, as that is what is keeping us from just exploring every combination. Once the budget is broken, we already know that every item with a greater cost than the current `lo` will also break the budget, so we don't even have to bother searching them. So, on average, this won't take as long as searching every combo.
 However, when doing [[Big-O Notation|Big-O]] analysis, we care about the worst case, and that would be if the best combination is found right in the middle of the array. In that situation, we do have to end up searching every combination. For that reason, the runtime of this algorithm is considered $O(n^2)$.
 ## Problem 2
-
+This problem requires a slight paradigm shift to make the [[Binary Search]] work. It's not initially apparent how
 # Other Stuff
 #### Links
 [[Homework Solutions|Unit Home]]
