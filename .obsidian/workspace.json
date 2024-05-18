@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
+                "file": "Classic Data Structures/Heaps.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
+                "file": "Classic Data Structures/Heaps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
+                "file": "Classic Data Structures/Heaps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md"
+                "file": "Classic Data Structures/Heaps.md"
               }
             }
           }
@@ -162,16 +162,16 @@
   },
   "active": "583b4be9a71dba76",
   "lastOpenFiles": [
+    "Classic Data Structures/Underlying Data Structures.md",
+    "Classic Data Structures/The Union-Find Data Structure.md",
+    "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
+    "Classic Data Structures/Heaps.md",
     "Classic Algorithms/Graph Algorithms.md",
     "Classic Data Structures/Graphs.md",
     "Classic Data Structures/Classic Data Structures.md",
     "Classic Algorithms/Binary Search.md",
-    "Classic Data Structures/Types of Data Structures.md",
     "README.md",
-    "Classic Data Structures/Heaps.md",
     "Classic Algorithms",
-    "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
-    "Classic Data Structures/The Union-Find Data Structure.md",
     "Excalidraw/Binomial Heap.md",
     "Analysis Techniques/Amortization.md",
     "Homework Solutions/Homework 1.md",

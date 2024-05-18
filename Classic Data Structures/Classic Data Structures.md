@@ -1,5 +1,5 @@
 ## Subunits
-* [[Types of Data Structures]]
+* [[Underlying Data Structures]]
 * [[The Seven Deadly Sins of Arrays and Lists]]
 * [[Binary Search]]
 * [[Graphs]]

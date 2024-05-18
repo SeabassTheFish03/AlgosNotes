@@ -44,4 +44,4 @@ Sure, it gives back the root of the tree, but notice how it also changes the nod
 
 [[Homework 11]]
 #### Tags
-#classic_algos_data_structs 
+#classic_data_structs 

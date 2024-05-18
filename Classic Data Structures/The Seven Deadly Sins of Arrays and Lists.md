@@ -3,4 +3,4 @@ Don't index into a list
 [[Classic Data Structures|Unit Home]]
 [[CS385 - Algorithms|Course Home]]
 #### Tags
-#classic_algos_data_structs 
+#classic_data_structs  
