@@ -1,4 +1,4 @@
-# Disclaimer
+0# Disclaimer
 Use of this solution, in any form and on any graded assignment, without proper citation constitutes an honor violation under the USMA Honor Code. Artifacts have been hidden in the code which will alert your grader that it has been copied. Or maybe they haven't. Best not to risk it though.
 # Problem 1
 You are given an array of individual items for sale, together with a budget. Each item is represented by a pair of (_cost_, _value_). The array is sorted both by cost and by value (meaning that the cost at index `i` is $\leq$ the cost at index `i+1` and the value at index `i` is $\leq$ the value at index `i+1`). Your goal is to purchase two items with the greatest possible combined value, without the combined cost going over your budget. Your function will return the combined value of the purchased pair.
@@ -48,7 +48,7 @@ def bricksPerKid(numKids: Int, bricksPerColor: List[Int]): Int =
 	    bricksPerColor.foldRight(0)((a, b) => a/n + b) // O(C)
 
     var lo = 1
-    var hi = bricksPerColor.maxOption.getOrElse(0) // O(C)
+    var hi = bricksPerColor.maxOption.getOrElse(0) // If list empty -> 0
     var mid = 1
     var best = 0
 
@@ -77,13 +77,14 @@ This algorithm works by starting from the outside of the array and working in. S
 Rather than checking every single combination of items in the array, we can start by picking the most expensive (and most valuable) item, and seeing how costly we can make the other item before breaking out of the budget. The budget check is key, as that is what is keeping us from just exploring every combination. Once the budget is broken, we already know that every item with a greater cost than the current `lo` will also break the budget, so we don't even have to bother searching them. So, on average, this won't take as long as searching every combo.
 However, when doing [[Big-O Notation|Big-O]] analysis, we care about the worst case, and that would be if the best combination is found right in the middle of the array. In that situation, we do have to end up searching every combination. For that reason, the runtime of this algorithm is considered $O(n^2)$.
 ## Problem 2
-This problem requires a slight paradigm shift to make the [[Binary Search]] work. It's not initially apparent how this problem relates to binary search trees. The key here is reconceptualizing how you think about the nodes of the tree. Rather than a data structure handed to you to search through, this is instead a *decision tree*. It's purely hypothetical, but you can search through it the same way as you would a concrete one.
-In the implementation, we can do this by making a transforming function, `groups`, which takes the number of groups
+This problem requires a slight paradigm shift to make the [[Binary Search]] work. It's not initially apparent how this problem relates to binary search trees. The key here is reconceptualizing how you think about the nodes of the tree. This isn't a data structure handed to you to search through. It's purely hypothetical, but you can search through it the same way as you would a concrete one.
+In the implementation, we can do this by making a transforming function, `groups`, which takes a number of proposed bricks and tells you how many groups you could form. From there, you can apply the same logic as if you were searching through a BST.
+Because we are searching through a hypothetical BST with a size equal to `T` (total number of bricks), and on each iteration we have to run `groups`, which is an $O(C)$ operation, the total runtime for this algorithm is $O(\log T*C)$. 
 # Other Stuff
 #### Links
 [[Homework Solutions|Unit Home]]
 [[CS385 - Algorithms|Course Home]]
 
-Knapsack Problem
+Knapsack Problem: 
 #### Tags
 #homeworks 
