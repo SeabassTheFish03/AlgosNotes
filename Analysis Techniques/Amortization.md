@@ -44,6 +44,7 @@ Let's devise our credit invariant such that every number in `Q2` is considered t
 For enqueue, it needs 3 credits, one to push the new number, then the 2 credits it needs to donate to that new number.
 # Skew Heaps
 
+
 #### Links
 [[Analysis Techniques|Unit Home]]
 [[CS385 - Algorithms|Course Home]]

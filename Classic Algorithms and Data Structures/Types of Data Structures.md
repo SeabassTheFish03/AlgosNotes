@@ -80,6 +80,15 @@ case class Tree(item: Int, size: Int, children: List[Tree]):
 		val heapMax = heap.maxWith(_.item)
 		???
 ```
+# Skew Heap
+Consider the [[#Binomial Heaps|Binomial Heap]], where the heap consists of multiple trees of very specific sizes and shapes. The trees don't have to be binary trees, but they better have a number of elements equal to a power of two. When choosing to use a binomial heap, the programmer cares a lot about finding the size of the tree in $O(\log n)$ time, among other priorities.
+If, instead, you want a data structure better suited for faster merging at the cost of the rigid structural constraints of a Binomial Heap, then you might end up choosing a Skew Heap.
+## Definition ([source](https://en.wikipedia.org/wiki/Skew_heap#Definition)])
+You can define a Skew Heap recursively with the following rules:
+* A heap with only one element is a skew heap
+* The result of *skew merging* two skew heaps $sh_1$ and $sh_2$ is also a skew heap
+## Skew Merging
+In plain English, we merge two skew heaps $p$ and $q$ (where $p$ has the smaller root) into the new tree $r$ by putting the root of $p$ as the root of $r$, the left subtree of $p$ as the right subtree of $r$, and recursively merging the right subtree of $p$ and the full tree $q$. The behavior looks like swapping two trees back and forth 
 # The Cthulhu List
 Discussion of the List data type introduced in [[Homework 8]]
 ## Definition

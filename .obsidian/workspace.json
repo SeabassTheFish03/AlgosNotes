@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis Techniques/Amortization.md",
+                "file": "Classic Algorithms and Data Structures/Types of Data Structures.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis Techniques/Amortization.md",
+                "file": "Classic Algorithms and Data Structures/Types of Data Structures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis Techniques/Amortization.md",
+                "file": "Classic Algorithms and Data Structures/Types of Data Structures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis Techniques/Amortization.md"
+                "file": "Classic Algorithms and Data Structures/Types of Data Structures.md"
               }
             }
           }
@@ -149,6 +149,9 @@
   },
   "active": "9c4bf04bd4169d57",
   "lastOpenFiles": [
+    "Excalidraw/Binomial Heap.md",
+    "Classic Algorithms and Data Structures/Types of Data Structures.md",
+    "Analysis Techniques/Amortization.md",
     "Homework Solutions/Homework 1.md",
     "Homework Solutions/Homework 2.md",
     "Homework Solutions/Homework 3.md",
@@ -161,12 +164,10 @@
     "Classic Algorithms and Data Structures/Graphs and Graph Algorithms.md",
     "Analysis Techniques/Lower Bound on Sorting.md",
     "Analysis Techniques/Solving Recurrence Relations.md",
-    "Analysis Techniques/Amortization.md",
     "Analysis Techniques/Divide-and-Conquer.md",
     "Analysis Techniques/Mathematics.md",
     "Classic Algorithms and Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
     "Classic Algorithms and Data Structures/The Union-Find Data Structure.md",
-    "Classic Algorithms and Data Structures/Types of Data Structures.md",
     "Design Techniques/Brute Force.md",
     "Excalidraw/Prim's Algorithm.md",
     "Excalidraw/Greedient Descent.md",
@@ -183,7 +184,6 @@
     "Homework Solutions/~syncthing~Homework 3.md.tmp",
     "Classic Algorithms and Data Structures/~syncthing~The Union-Find Data Structure.md.tmp",
     "Homework Solutions/~syncthing~Homework Solutions.md.tmp",
-    "Excalidraw/Drawing 2024-04-17 11.46.16.excalidraw.md",
     "Excalidraw/~syncthing~Greedient Descent.excalidraw.md.tmp"
   ]
 }
