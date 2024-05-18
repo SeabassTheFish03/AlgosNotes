@@ -85,6 +85,6 @@ Because we are searching through a hypothetical BST with a size equal to `T` (to
 [[Homework Solutions|Unit Home]]
 [[CS385 - Algorithms|Course Home]]
 
-Knapsack Problem: 
+Knapsack Problem: [https://en.wikipedia.org/wiki/Knapsack_problem]
 #### Tags
 #homeworks 
