@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classic Data Structures/Heaps.md",
+                "file": "Analysis Techniques/Amortization.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classic Data Structures/Heaps.md",
+                "file": "Analysis Techniques/Amortization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classic Data Structures/Heaps.md",
+                "file": "Analysis Techniques/Amortization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classic Data Structures/Heaps.md"
+                "file": "Analysis Techniques/Amortization.md"
               }
             }
           }
@@ -162,10 +162,10 @@
   },
   "active": "583b4be9a71dba76",
   "lastOpenFiles": [
+    "Classic Data Structures/Heaps.md",
     "Classic Data Structures/Underlying Data Structures.md",
     "Classic Data Structures/The Union-Find Data Structure.md",
     "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
-    "Classic Data Structures/Heaps.md",
     "Classic Algorithms/Graph Algorithms.md",
     "Classic Data Structures/Graphs.md",
     "Classic Data Structures/Classic Data Structures.md",

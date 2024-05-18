@@ -42,9 +42,6 @@ Let 1 credit be able to either:
 When we hit the situation where we need to move `Q2` into `Q1`, we need to have `2n` credits available, where `n` is the number of elements in `Q2`, since we need to pop each number out of `Q2`, then push it into `Q1`. They can also do some very minor miscellaneous things like returning a recently popped number, but nothing else major.
 Let's devise our credit invariant such that every number in `Q2` is considered to have 2 credits (remember, these aren't present in the code anywhere, it's just an analysis technique). We can give each dequeue operation 1 credit to spend (in the best case, that's all it needs to dequeue an element from `Q1`). In the worst case, then it needs to move all of `Q2` over to `Q1`. Luckily, each element in `Q2` already has enough credits to move itself, so dequeue doesn't need to spend any more credits to make that happen.
 For enqueue, it needs 3 credits, one to push the new number, then the 2 credits it needs to donate to that new number.
-# Skew Heaps
-
-
 #### Links
 [[Analysis Techniques|Unit Home]]
 [[CS385 - Algorithms|Course Home]]
