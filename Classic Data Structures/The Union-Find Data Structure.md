@@ -39,7 +39,7 @@ def find: UF =
 ```
 Sure, it gives back the root of the tree, but notice how it also changes the node's own parent to be the root of the tree.
 #### Links
-[[Classic Algorithms and Data Structures|Unit Home]]
+[[Classic Data Structures|Unit Home]]
 [[CS385 - Algorithms|Course Home]]
 
 [[Homework 11]]

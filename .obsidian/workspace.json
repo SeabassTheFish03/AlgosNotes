@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Classic Algorithms and Data Structures/Types of Data Structures.md",
+                "file": "Classic Data Structures/Graphs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "583b4be9a71dba76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classic Algorithms and Data Structures/Types of Data Structures.md",
+                "file": "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classic Algorithms and Data Structures/Types of Data Structures.md",
+                "file": "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Classic Algorithms and Data Structures/Types of Data Structures.md"
+                "file": "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md"
               }
             }
           }
@@ -147,43 +160,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9c4bf04bd4169d57",
+  "active": "583b4be9a71dba76",
   "lastOpenFiles": [
+    "Classic Algorithms/Graph Algorithms.md",
+    "Classic Data Structures/Graphs.md",
+    "Classic Data Structures/Classic Data Structures.md",
+    "Classic Algorithms/Binary Search.md",
+    "Classic Data Structures/Types of Data Structures.md",
+    "README.md",
+    "Classic Data Structures/Heaps.md",
+    "Classic Algorithms",
+    "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
+    "Classic Data Structures/The Union-Find Data Structure.md",
     "Excalidraw/Binomial Heap.md",
-    "Classic Algorithms and Data Structures/Types of Data Structures.md",
     "Analysis Techniques/Amortization.md",
     "Homework Solutions/Homework 1.md",
     "Homework Solutions/Homework 2.md",
     "Homework Solutions/Homework 3.md",
     "Homework Solutions/Homework 4.md",
     "Homework Solutions/Homework 5.md",
-    "README.md",
     "CS385 - Algorithms.md",
     "LICENSE",
     "Homework Solutions/Homework 12.md",
-    "Classic Algorithms and Data Structures/Graphs and Graph Algorithms.md",
     "Analysis Techniques/Lower Bound on Sorting.md",
     "Analysis Techniques/Solving Recurrence Relations.md",
     "Analysis Techniques/Divide-and-Conquer.md",
     "Analysis Techniques/Mathematics.md",
-    "Classic Algorithms and Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
-    "Classic Algorithms and Data Structures/The Union-Find Data Structure.md",
     "Design Techniques/Brute Force.md",
     "Excalidraw/Prim's Algorithm.md",
     "Excalidraw/Greedient Descent.md",
     "Excalidraw/Kruskal's Algorithm.md",
-    "Homework Solutions/Homework Solutions.md",
-    "Homework Solutions/Homework 10.md",
-    "Homework Solutions/Homework 11.md",
     "Homework Solutions/~syncthing~Homework 1.md.tmp",
     "Classic Algorithms and Data Structures/~syncthing~Graphs and Graph Algorithms.md.tmp",
-    "Excalidraw/Union-Find Data Structure.md",
     "Homework Solutions/~syncthing~Homework 2.md.tmp",
     "Homework Solutions/~syncthing~Homework 11.md.tmp",
     "Excalidraw/~syncthing~Union-Find Data Structure.md.tmp",
     "Homework Solutions/~syncthing~Homework 3.md.tmp",
     "Classic Algorithms and Data Structures/~syncthing~The Union-Find Data Structure.md.tmp",
-    "Homework Solutions/~syncthing~Homework Solutions.md.tmp",
-    "Excalidraw/~syncthing~Greedient Descent.excalidraw.md.tmp"
+    "Homework Solutions/~syncthing~Homework Solutions.md.tmp"
   ]
 }

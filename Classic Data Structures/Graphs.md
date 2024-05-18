@@ -129,7 +129,7 @@ We can use the [[Union-Find Data Structure]] to make it very simple to avoid cyc
 # Dykstra's Algorithm
 # Other Stuff
 #### Links
-[[Classic Algorithms and Data Structures|Unit Home]]
+[[Classic Data Structures|Unit Home]]
 [[CS385 - Algorithms|Course Home]]
 #### Tags
 #classic_algos_data_structs 

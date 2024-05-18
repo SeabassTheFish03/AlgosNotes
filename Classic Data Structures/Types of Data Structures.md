@@ -19,7 +19,7 @@ The Red-Black Tree is a method for balancing a binary tree. It comes with furthe
 * The bottom level, which may not be completely full, fills up from left to right
 ![[Red-Black Tree]]
 ### Links
-[[Classic Algorithms and Data Structures|Unit Home]]
+[[Classic Data Structures|Unit Home]]
 [[CS385 - Algorithms|Course Home]]
 ### Tags
 #classic_algos_data_structs 
@@ -88,7 +88,46 @@ You can define a Skew Heap recursively with the following rules:
 * A heap with only one element is a skew heap
 * The result of *skew merging* two skew heaps $sh_1$ and $sh_2$ is also a skew heap
 ## Skew Merging
-In plain English, we merge two skew heaps $p$ and $q$ (where $p$ has the smaller root) into the new tree $r$ by putting the root of $p$ as the root of $r$, the left subtree of $p$ as the right subtree of $r$, and recursively merging the right subtree of $p$ and the full tree $q$. The behavior looks like swapping two trees back and forth 
+In plain English, we merge two skew heaps $p$ and $q$ (where $p$ has the smaller root) into the new tree $r$ by putting the root of $p$ as the root of $r$, the left subtree of $p$ as the right subtree of $r$, and recursively merging the right subtree of $p$ and the full tree $q$. The behavior looks like swapping two trees back and forth as the recursion moves down the tree. A value that starts on the left side of the tree will end up on the right after a merge, and vice versa.
+Here's an implementation in Scala:
+```
+// First, we need a way to express a Skew Heap. Nothing too crazy here
+// The real changes come in the implementation
+enum SkewHeap:
+	case Empty
+	case Node(left: SkewHeap, item: Int, right: SkewHeap)
+
+// The behavior of merge defines how the rest of the functions behave, so we
+// will create that function first
+def merge(p: SkewHeap, q: SkewHeap): SkewHeap =
+	(p, q) match
+		case (Empty, Empty) => Empty
+		case (Node(_,_,_), Empty) => p
+		case (Empty, Node(_,_,_)) => q
+		case (Node(pl,pi,pr), Node(_,qi,_)) =>
+			if qi < pi then merge(q, p)
+			else Node(merge(pr, q), pi, pl)
+
+// Other behaviors are just merge in disguise
+def insert(item: Int, p: SkewHeap): SkewHeap =
+	merge(Node(Empty, item, Empty), p)
+
+def deleteMin(p: SkewHeap): SkewHeap =
+	p match
+		case Empty => throw new Exception("Can't deleteMin from Empty")
+		case Node(left,_,right) => merge(left, right)
+
+/* Other Misc. Functions because they're my notes and I can do what I want */
+// Look at the top element
+def head(p: SkewHeap): Int =
+	p match
+		case Empty => throw new Exception("Nothing in the SkewHeap")
+		case Node(_,i,_) => i
+		
+// Delete the min and also return
+def pop(p: SkewHeap): (Int, SkewHeap) =
+	(peek(p), deleteMin(p))
+```
 # The Cthulhu List
 Discussion of the List data type introduced in [[Homework 8]]
 ## Definition
