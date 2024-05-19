@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "57ff1ecd7b043cc2",
+        "id": "75030deb6334e552",
         "type": "tabs",
         "children": [
           {
-            "id": "9c4bf04bd4169d57",
+            "id": "7e05aa47955711e2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classic Data Structures/Graphs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "583b4be9a71dba76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis Techniques/Amortization.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis Techniques/Amortization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis Techniques/Amortization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Analysis Techniques/Amortization.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -160,20 +139,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "583b4be9a71dba76",
+  "active": "7e05aa47955711e2",
   "lastOpenFiles": [
+    "Trees.md",
     "Classic Data Structures/Heaps.md",
     "Classic Data Structures/Underlying Data Structures.md",
+    "Classic Data Structures/Cheeky Variations.md",
     "Classic Data Structures/The Union-Find Data Structure.md",
     "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
-    "Classic Algorithms/Graph Algorithms.md",
     "Classic Data Structures/Graphs.md",
     "Classic Data Structures/Classic Data Structures.md",
+    "Classic Algorithms/Graph Algorithms.md",
+    "Analysis Techniques/Amortization.md",
     "Classic Algorithms/Binary Search.md",
     "README.md",
     "Classic Algorithms",
     "Excalidraw/Binomial Heap.md",
-    "Analysis Techniques/Amortization.md",
     "Homework Solutions/Homework 1.md",
     "Homework Solutions/Homework 2.md",
     "Homework Solutions/Homework 3.md",
@@ -188,8 +169,6 @@
     "Analysis Techniques/Mathematics.md",
     "Design Techniques/Brute Force.md",
     "Excalidraw/Prim's Algorithm.md",
-    "Excalidraw/Greedient Descent.md",
-    "Excalidraw/Kruskal's Algorithm.md",
     "Homework Solutions/~syncthing~Homework 1.md.tmp",
     "Classic Algorithms and Data Structures/~syncthing~Graphs and Graph Algorithms.md.tmp",
     "Homework Solutions/~syncthing~Homework 2.md.tmp",

@@ -8,6 +8,7 @@
 	* [[Graphs#Minimal Spanning Trees|Minimal Spanning Trees]]
 	* [[Graphs#Shortest Paths|Shortest Paths]]
 * [[The Union-Find Data Structure]]
+# Other Stuff
 #### Links
 [[CS385 - Algorithms|Course Home]]
 #### Tags
