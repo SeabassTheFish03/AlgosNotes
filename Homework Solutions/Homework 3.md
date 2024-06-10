@@ -21,13 +21,13 @@ Given an array of integers, generate the sum of these integers in a Divide-and-C
 
 Instead of simply returning the sum, you'll return a trace of all the additions in the form of a binary tree. For example, given the input (1,2,4,5,7,8), you would return the tree
 ```
-            __27__
-           /      \
-          7        20
-         / \      /  \
-        3   4   12    8
-       / \     /  \
-      1   2   5    7
+		__27__
+	   /      \
+	  7        20
+	 / \      /  \
+	3   4   12    8
+   / \     /  \
+  1   2   5    7
 ```
 The tree itself will use the BinaryTree type you should remember from CS384, defined as
 ```
@@ -37,9 +37,9 @@ enum BinaryTree[A]:
 ```
 For example, the tree
 ```
-       5
-      / \
-     1   4
+   5
+  / \
+ 1   4
 ```
 would be represented as
 
@@ -52,7 +52,10 @@ def addEmUp(arr: Array[Int]): BinaryTree[Int] =
     def root(tree: BinaryTree[Int]): Int =
 	    tree match
 	        case Node(i,_,_) => i
-	        case Empty => ???
+	        case Empty =>
+		        throw new NoSuchElementException(
+			        "Can't find root of Empty BinaryTree"
+			    )
 
     def make(lo: Int, hi: Int): BinaryTree[Int] =
 	    if lo == hi then Node(arr(lo), Empty, Empty)
