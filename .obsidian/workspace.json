@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homework Solutions/Homework 3.md",
+                "file": "Design Techniques/Brute Force.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Homework Solutions/Homework 3.md",
+                "file": "Design Techniques/Brute Force.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Homework Solutions/Homework 3.md",
+                "file": "Design Techniques/Brute Force.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Homework Solutions/Homework 3.md"
+                "file": "Design Techniques/Brute Force.md"
               }
             }
           }
@@ -149,6 +149,7 @@
   },
   "active": "7e05aa47955711e2",
   "lastOpenFiles": [
+    "Homework Solutions/Homework 3.md",
     "Homework Solutions/Homework 2.md",
     "Homework Solutions/Homework 1.md",
     "Trees.md",
@@ -165,7 +166,6 @@
     "README.md",
     "Classic Algorithms",
     "Excalidraw/Binomial Heap.md",
-    "Homework Solutions/Homework 3.md",
     "Homework Solutions/Homework 4.md",
     "Homework Solutions/Homework 5.md",
     "CS385 - Algorithms.md",

@@ -90,7 +90,7 @@ def flipTheBits(list: List[Char]): List[Char] =
     else
 	    val (evens, odds) = split(list)
 	    // O(n)
-		flipTheBits(evens) ::: flipTheBits(odds)
+		flipTheBits(evens) ::: flipTheBits(odds) // Appends the odds to evens
 ```
 # Other Stuff
 #### Links
