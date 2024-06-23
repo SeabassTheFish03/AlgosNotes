@@ -20,7 +20,7 @@ def isPrime(n: Int): Boolean =
 		if n % x == 0 then return false
 	true
 ```
-The **traveler** is the `for` loop. It checks every number from `2` to `n-1` (that's what the `until` keyword does) to see if it divides `x` evenly. Our **checker** actually has a chance to break out early. We use the fragile definition (*not* a technical term) of a prime number to determine the answer is `false` at the first divisor we find. By fragile, I mean that as soon as one divisor is found, it is now impossible for the number to be prime.
+The **traveler** is the `for` loop. It checks every number from `2` to `n-1` (that's what the `until` keyword does) to see if it divides `x` evenly. Our **checker** actually has a chance to break out early. 
 
 The runtime of this example in the worst case is still $O(n)$, even if it is redeemed slightly by the early break point.
 ### Example 2: Brute Force Exponentiation
