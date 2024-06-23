@@ -12,7 +12,18 @@ One thing you can be certain of is that the Brute Force answer is the _most_ cor
 
 Going through the exercise of building such an algorithm lays the foundation for the more clever algorithms you are likely expecting to make.
 ## Examples
-### Example 1: Brute Force Exponentiation
+### Example 1: Checking for Prime Numbers
+**Problem**: Is $n>1$ a prime number?
+```
+def isPrime(n: Int): Boolean =
+	for x <- 2 until n do
+		if n % x == 0 then return false
+	true
+```
+The **traveler** is the `for` loop. It checks every number from `2` to `n-1` (that's what the `until` keyword does) to see if it divides `x` evenly. Our **checker** actually has a chance to break out early. We use the fragile definition (*not* a technical term) of a prime number to determine the answer is `false` at the first divisor we find. By fragile, I mean that as soon as one divisor is found, it is now impossible for the number to be prime.
+
+The runtime of this example in the worst case is still $O(n)$, even if it is redeemed slightly by the early break point.
+### Example 2: Brute Force Exponentiation
 **Problem**: Calculate $x^n$, where $n$ is a non-negative integer.
 ```
 def pow(x: Int, n: Int): Int =
@@ -26,17 +37,6 @@ In this example, the **traveler** is the `for` loop, which executes a number of 
 The **checker** is a little sneakier. There are no `if` statements, so where is the conditional? Because this is such a simple example, we know exactly when the desired outcome is reached: when the loop ends. So, the question the checker is asking is "has the loop ended?" If yes, then it returns the answer; if not, it executes the loop again.
 
 The runtime of this example is $O(n)$ (see [[Big-O Notation]]). In fact, we know the runtime is exactly `n`, not just in the worst case, but in all cases. Since the loop never has a chance to break early, the worst case scenario is the only possible scenario.
-### Example 2: Checking for Prime Numbers
-**Problem**: Is $n>1$ a prime number?
-```
-def isPrime(n: Int): Boolean =
-	for x <- 2 until n do
-		if n % x == 0 then return false
-	true
-```
-The **traveler** is again the `for` loop. It checks every number from `2` to `n-1` (that's what the `until` keyword does) to see if it divides `x` evenly. Our **checker** actually has a chance to break out early. We use the fragile definition (*not* a technical term) of a prime number to determine the answer is `false` at the first divisor we find. By fragile, I mean that as soon as one divisor is found, it is now impossible for the number to be prime.
-
-The runtime of this example in the worst case is still $O(n)$, even if it is redeemed slightly by the early break point.
 ### Example 3: Linear Search
 **Problem**: Check if a given value is present in an array
 ```
