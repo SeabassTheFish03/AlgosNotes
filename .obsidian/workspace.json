@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Solutions/Practice Problem Solutions/Brute Force Solutions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c76e5c3cd88ffc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Design Techniques/Brute Force.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,16 +160,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e05aa47955711e2",
+  "active": "3c76e5c3cd88ffc4",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Templates/Concept Page.md",
+    "Solutions/Practice Problem Solutions/Brute Force Solutions.md",
     "Design Techniques/Brute Force.md",
+    "Solutions/Practice Problem Solutions",
+    "Solutions",
+    "Templates/Concept Page.md",
     "CS385 - Algorithms.md",
     "Templates",
-    "Homework Solutions/Homework 3.md",
-    "Homework Solutions/Homework 2.md",
-    "Homework Solutions/Homework 1.md",
+    "Solutions/Homework Solutions/Homework 3.md",
+    "Solutions/Homework Solutions/Homework 2.md",
+    "Solutions/Homework Solutions/Homework 1.md",
     "Trees.md",
     "Classic Data Structures/Heaps.md",
     "Classic Data Structures/Underlying Data Structures.md",
@@ -171,19 +186,16 @@
     "README.md",
     "Classic Algorithms",
     "Excalidraw/Binomial Heap.md",
-    "Homework Solutions/Homework 4.md",
-    "Homework Solutions/Homework 5.md",
+    "Solutions/Homework Solutions/Homework 4.md",
+    "Solutions/Homework Solutions/Homework 5.md",
     "LICENSE",
-    "Homework Solutions/Homework 12.md",
+    "Solutions/Homework Solutions/Homework 12.md",
     "Analysis Techniques/Lower Bound on Sorting.md",
     "Analysis Techniques/Solving Recurrence Relations.md",
-    "Analysis Techniques/Divide-and-Conquer.md",
     "Homework Solutions/~syncthing~Homework 1.md.tmp",
     "Classic Algorithms and Data Structures/~syncthing~Graphs and Graph Algorithms.md.tmp",
     "Homework Solutions/~syncthing~Homework 2.md.tmp",
     "Homework Solutions/~syncthing~Homework 11.md.tmp",
-    "Excalidraw/~syncthing~Union-Find Data Structure.md.tmp",
-    "Homework Solutions/~syncthing~Homework 3.md.tmp",
-    "Classic Algorithms and Data Structures/~syncthing~The Union-Find Data Structure.md.tmp"
+    "Excalidraw/~syncthing~Union-Find Data Structure.md.tmp"
   ]
 }

@@ -20,10 +20,10 @@ def isPrime(n: Int): Boolean =
 		if n % x == 0 then return false
 	true
 ```
-The **traveler** is the `for` loop. It checks every number from `2` to `n-1` (that's what the `until` keyword does) to see if it divides `x` evenly. Our **checker** actually has a chance to break out early. 
+The **traveler** is the `for` loop. It checks every number from `2` to `n-1` (that's what the `until` keyword does) to see if it divides `x` evenly. Our **checker** actually has a chance to break out early if it finds a divisor of `x`. The chance of this happening increases as `n` increases, but if `n` is prime the loop will run to completion. 
 
-The runtime of this example in the worst case is still $O(n)$, even if it is redeemed slightly by the early break point.
-### Example 2: Brute Force Exponentiation
+The runtime of this example in the worst case is still $O(n)$. Even though it has a chance to break out early, the loop will run to completion if the number is prime, so the worst case scenario is that the loop runs $n$ times.
+## Example 2: Brute Force Exponentiation
 **Problem**: Calculate $x^n$, where $n$ is a non-negative integer.
 ```
 def pow(x: Int, n: Int): Int =
@@ -32,12 +32,12 @@ def pow(x: Int, n: Int): Int =
 		a = a * x
 	a
 ```
-In this example, the **traveler** is the `for` loop, which executes a number of times equal to `n`. Since exponentiation is repeated multiplication, we can multiply `a` by `x` every iteration to simulate multiplying `x` with itself `n` times. In the case that `n = 0`, the range will be invalid and the loop with not run at all, returning `1` as expected.
+In this example, the **traveler** is the `for` loop, which executes a number of times equal to `n`. Since exponentiation is repeated multiplication, we can multiply `a` by `x` every iteration, which is equivalent to multiplying `x` with itself `n` times. In the case that `n = 0`, the range will be invalid and the loop with not run at all, returning `1` as expected.
 
-The **checker** is a little sneakier. There are no `if` statements, so where is the conditional? Because this is such a simple example, we know exactly when the desired outcome is reached: when the loop ends. So, the question the checker is asking is "has the loop ended?" If yes, then it returns the answer; if not, it executes the loop again.
+The **checker** is a little sneakier. There are no `if` statements, but the key lesson of this example is to show how the checker can be built into the logic of the program. We know exactly when the desired outcome is reached: when the loop ends. So, the question the checker is notionally asking is "has the loop ended?" If yes, then it returns the answer; if not, it executes the loop again.
 
-The runtime of this example is $O(n)$ (see [[Big-O Notation]]). In fact, we know the runtime is exactly `n`, not just in the worst case, but in all cases. Since the loop never has a chance to break early, the worst case scenario is the only possible scenario.
-### Example 3: Linear Search
+The runtime of this example is $O(n)$ (see [[Big-O Notation]]). In fact, we know the runtime is exactly `n`, not just in the worst case, but in all cases. Since the loop never has a chance to break early, the worst case scenario is the only possible scenario. A possible speedup for this would be using a technique like [[Dynamic Programming]], at the cost of using more memory.
+## Example 3: Linear Search
 **Problem**: Check if a given value is present in an array
 ```
 def contains(x: Int, arr: Array[Int]): Boolean =
@@ -48,7 +48,7 @@ def contains(x: Int, arr: Array[Int]): Boolean =
 You might notice this looks very similar to the last example. It's actually nearly the same problem. The **traveler** is array elements instead of numbers in a range, but the key similarity is the early breakout when a match is found. Our **checker** is now asking if the current `item` we're focused on is equal to the `x` we are looking for.
 
 As with the last example, the runtime is $O(n)$
-### Example 4: Double Dipping
+## Example 4: Double Dipping
 **Problem**: An enterprising - but unethical - cadet has taken out two cow loans from separate banks (which, just in case there is any doubt, *you are not supposed to do*). Given two arrays of names representing the cadets taking out loans from each of the institutions, find the cheater.
 ```
 def cheater(bank1: Array[String], bank2: Array[String]): Option[String] =
@@ -62,7 +62,7 @@ def cheater(bank1: Array[String], bank2: Array[String]): Option[String] =
 We've moved from one-dimensional arrays and numerical spaces into 2-dimensional ones, but the fundamental principal of travelers and checkers remains the same. In this example, the traveler is moving through both arrays piece by piece. For each element in the first array, it is checking against every element in the second array, then progressing one element in the first array and repeating the process until both arrays are empty (they don't need to be the same size).
 
 The checker is asking if the two elements are equal to one another. If they are, then the loops exit early and the function returns. One of the fundamental assumptions is that there is only one cheater in the mix, as the early return means any subsequent cheaters would be ignored. Technically, this makes it a [[Greedy Algorithms|greedy algorithm]]
-### Example 5: Shortest Distance
+## Example 5: Shortest Distance
 **Problem**: Find the shortest distance between two points in an array of points (Assume there are at least two points, that all points are distinct, and that you have a function `distance` to calculate the distance between two points)
 ```
 def shortestDistance(points: Array[Int]): Int =
@@ -79,7 +79,7 @@ Our **traveler** is a little bit smarter than in previous examples, but only so 
 We have no **checker** in this case, other than the loop being over. That's because we can't know the shortest distance until we've checked every pair.
 
 The runtime for this example is $O(n^2)$
-### Example 6: 3 to make 100
+## Example 6: 3 to make 100
 **Problem**: Does an array of numbers contain three separate entries that sum to `100`?
 ```
 def sum100(arr: Array[Int]): Boolean =
@@ -91,33 +91,12 @@ def sum100(arr: Array[Int]): Boolean =
 ```
 Yikes. Even though we are diminishing the number of entries `j` and `k` need to look at (see [[Brute Force#Example 5 Shortest Distance|Example 5]]), there are still a lot of calculations happening. The **traveler** needs to traverse the array three nested times, which is what leads to the unfortunate structure of this example.
 
-The runtime for this example is a whopping $O(n^3)$
-
-## Practice Problems
-### Problem 1: Word Counter
+The runtime for this example is $O(n^3)$
+# Practice Problems
+## Problem 1: Word Counter
 **Problem**: Given a *word* and a *document* (both as strings), count how many times the word appears in the document. Assume that the words is not empty, and that capitalization matters. For example, "cat" and "Cat" do not match. Be aware of the possibility that, for some words, multiple occurrences of that word could overlap.
 
-**Solution** (Procedural):
-```
-def wordCounter(word: String, doc: String): Int =
-	// Runtime: O(m*n) where m is string.length, n is doc.length
-	
-	var counter = 0
-	val windows: Array[String] = doc.sliding(word.length)
-	
-	for window <- windows do
-		if window == word then counter += 1
-	counter
-```
-**Solution** (Functional):
-```
-def wordCounter(word: String, doc: String): Int =
-	// Runtime: O(m*n) where m is string.length, n is doc.length
-	
-	doc.sliding(word.length).count(_ == word)
-```
-[Hint](https://dotty.epfl.ch/api/scala/collection/ArrayOps.html#sliding-fffff156)
-### Problem 2: Sphere Interior
+## Problem 2: Sphere Interior
 **Problem**: Consider points in a three-dimensional grid, that is, coordinates in the form (X, Y, Z), where X, Y, and Z are all integers. Given a *Radius*, count how many grid points lie on or inside a sphere of that radius centered at the origin.
 
 **Solution** (Procedural):
@@ -137,7 +116,7 @@ def sphereInterior(points: Array[(Int, Int, Int)], r: Int): Int =
 	
 	points.count(point => scala.math.sqrt(point._1^2 + point._2^2 + point._3^2) <= r)
 ```
-### Problem 3: Black Square
+## Problem 3: Black Square
 **Problem**: Given a black-and-white image as a two-dimensional array of pixels (`0`=black, `1`=white), find the size (number of pixels) of the largest solid black square in the image.
 
 **Solution** (Procedural):
@@ -188,18 +167,21 @@ def blackSquare(grid: Array[Array[Int]]): Int =
 			)
 	)._1
 ```
-### Problem 4: The [0-1 Knapsack Problem](https://en.wikipedia.org/wiki/Knapsack_problem#0-1_knapsack_problem)
+## Problem 4: The [0-1 Knapsack Problem](https://en.wikipedia.org/wiki/Knapsack_problem#0-1_knapsack_problem)
 **Problem**: You are a thief, and you are about to bring in the haul of a lifetime. The only problem: you only have enough room in your knapsack for `maxWeight` pounds worth of loot. Given an array of items with their values and weights, find the maximum value you can steal without going over the weight limit. Assume no item has exactly the same weight AND value as another (they may share one or the other, but not both).
 
 **Solution** (Procedural):
 ```
 def knapsack(arr: Array[(Int, Int)], maxWeight: Int): Int =
-	// O(2^n)
-	if arr.isEmpty || maxWeight <= 0 then 0
-	else
-		// Do we take the item or not? We have to recur all the way down to see
-		knapsack(arr.drop(1), maxWeight) max
-		(arr(0)._1 + knapsack(arr.drop(1), maxWeight - arr(0)._2))
+	var maxValue = 0
+	
+	for i <- 0 until arr.length - 1 do
+		for j <- i until arr.length do 
+			val combWeight = arr(i)(1) + arr(j)(1)
+			
+			if combWeight <= maxWeight then
+				maxValue = maxValue max (arr(i)(0) + arr(j)(0))
+	maxValue
 ```
 # Links
 [[Design Techniques|Unit Home]]
