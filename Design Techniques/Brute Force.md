@@ -1,18 +1,18 @@
-Brute-force is rarely the most optimal solution for an algorithm, though it is often the easiest to imagine and implement. It's a great starting place for designing a faster, cleverer algorithm.
+Brute-force is rarely the most optimal solution for an algorithm, though it is often the simplest to imagine and implement. It's a great starting place for optimizing into a faster and more efficient algorithm.
 
-At the time of writing, the reading and exercises for Brute Force can be found [here](https://eecscourses.westpoint.edu/courses/cs385/bruteforce.html). It is only accessible on the WREN. For each of the examples and problems found there (1-6 and 1-3, respectively), I've copied the problem statements exactly, but written the solutions in Scala (on the website, they are in Ada).
-## Definition
-A brute-force algorithm finds a way to generate all possible solutions in the problem space, then decides if that solution is correct or not. A brute-force algorithm is characterized by two parts: a **traveler** and a **checker**. The traveler is some method of moving through the problem space, and the only requirement is that it will eventually make its way to every possible solution to a problem. The checker takes each possible solution offered by the traveler and checks it against some condition stipulated by the problem. If that condition is met, the algorithm stops. If not, the traveler is on to its next destination.
-## Why?
-You may ask, if you never want to use a brute-force algorithm in an implementation, why bother writing one at all? As you progress into more complicated algorithms, where you might not immediately know what an answer would look like (much less a correct one), you might want to start out with a brute-force algorithm.
+At the time of writing, the reading and exercises for Brute Force can be found on the [[#Links|course website]]. For each of the examples and problems found there (1-6 and 1-3, respectively), I've copied the problem statements exactly, but written the solutions in Scala (on the website, they are in Ada).
+# Definition
+A brute-force algorithm finds a way to generate all possible solutions in the problem space, then decides if that solution is correct or not. A brute-force algorithm is characterized by two parts: a **traveler** and a **checker**.
 
-First, you'll need to make a well-defined traveler that you're certain will hit every possible answer. Second, you'll need to know what condition would make that possible solution correct. The single largest speedup from any brute-force algorithm to a faster one will come from refining the traveler to be more strategic. Maybe you can use the answer you just calculated to rule out part of the problem space (see [[Binary Search]]).
+The traveler is some method of moving through the problem space, and the only requirement is that it will eventually make its way to every possible solution to a problem.
 
-One thing you can be certain of is that the Brute Force answer is the _most_ correct solution, since every possible solution is considered.
+The checker takes each possible solution offered by the traveler and checks it against some condition stipulated by the problem. If that condition is met, the algorithm stops. If not, the traveler is on to its next destination.
+# Why?
+If you never want to use a brute-force algorithm in an implementation, why bother writing one at all? Sometimes, it is not obvious what the correct solution would look like. A brute force solution, executed correctly, guarantees that every possible solution is checked and that the logic of the checker is correct. More efficient algorithms are, for the most part, only more optimized methods of traversing the problem space. A key example of this would be [[Binary Search]].
 
-Going through the exercise of building such an algorithm lays the foundation for the more clever algorithms you are likely expecting to make.
-## Examples
-### Example 1: Checking for Prime Numbers
+A key advantage of a Brute Force answer is that it will be the _most_ correct solution, since every possible solution is considered.
+# Examples
+## Example 1: Checking for Prime Numbers
 **Problem**: Is $n>1$ a prime number?
 ```
 def isPrime(n: Int): Boolean =
@@ -138,7 +138,7 @@ def sphereInterior(points: Array[(Int, Int, Int)], r: Int): Int =
 	points.count(point => scala.math.sqrt(point._1^2 + point._2^2 + point._3^2) <= r)
 ```
 ### Problem 3: Black Square
-**Problem**: Given a black-and-white image as a two-dimensional array of pixels (0=black, 1=white), find the size (number of pixels) of the largest solid black square in the image.
+**Problem**: Given a black-and-white image as a two-dimensional array of pixels (`0`=black, `1`=white), find the size (number of pixels) of the largest solid black square in the image.
 
 **Solution** (Procedural):
 ```
@@ -189,7 +189,7 @@ def blackSquare(grid: Array[Array[Int]]): Int =
 	)._1
 ```
 ### Problem 4: The [0-1 Knapsack Problem](https://en.wikipedia.org/wiki/Knapsack_problem#0-1_knapsack_problem)
-**Problem**: You are a thief, and you currently find yourself in about to bring in the haul of a lifetime. The only problem: you only have enough room in your knapsack for $maxWeight$ pounds worth of loot. Given an array of items with their values and weights, find the maximum value you can steal without going over the weight limit. Assume no item has exactly the same weight AND value as another (they may share one or the other, but not both).
+**Problem**: You are a thief, and you are about to bring in the haul of a lifetime. The only problem: you only have enough room in your knapsack for `maxWeight` pounds worth of loot. Given an array of items with their values and weights, find the maximum value you can steal without going over the weight limit. Assume no item has exactly the same weight AND value as another (they may share one or the other, but not both).
 
 **Solution** (Procedural):
 ```
@@ -201,11 +201,11 @@ def knapsack(arr: Array[(Int, Int)], maxWeight: Int): Int =
 		knapsack(arr.drop(1), maxWeight) max
 		(arr(0)._1 + knapsack(arr.drop(1), maxWeight - arr(0)._2))
 ```
-#### Links
+# Links
 [[Design Techniques|Unit Home]]
 [[CS385 - Algorithms|Course Home]]
 
 Examples 1 - 6 and Problems 1 - 3 were taken from [the course website](https://eecscourses.westpoint.edu/courses/cs385/bruteforce.html)
 [The 0-1 Knapsack Problem](https://en.wikipedia.org/wiki/Knapsack_problem#0-1_knapsack_problem)
-#### Tags
+## Tags
 #design_techniques 

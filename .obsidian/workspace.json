@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#design_techniques",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -149,6 +149,11 @@
   },
   "active": "7e05aa47955711e2",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Templates/Concept Page.md",
+    "Design Techniques/Brute Force.md",
+    "CS385 - Algorithms.md",
+    "Templates",
     "Homework Solutions/Homework 3.md",
     "Homework Solutions/Homework 2.md",
     "Homework Solutions/Homework 1.md",
@@ -168,22 +173,17 @@
     "Excalidraw/Binomial Heap.md",
     "Homework Solutions/Homework 4.md",
     "Homework Solutions/Homework 5.md",
-    "CS385 - Algorithms.md",
     "LICENSE",
     "Homework Solutions/Homework 12.md",
     "Analysis Techniques/Lower Bound on Sorting.md",
     "Analysis Techniques/Solving Recurrence Relations.md",
     "Analysis Techniques/Divide-and-Conquer.md",
-    "Analysis Techniques/Mathematics.md",
-    "Design Techniques/Brute Force.md",
-    "Excalidraw/Prim's Algorithm.md",
     "Homework Solutions/~syncthing~Homework 1.md.tmp",
     "Classic Algorithms and Data Structures/~syncthing~Graphs and Graph Algorithms.md.tmp",
     "Homework Solutions/~syncthing~Homework 2.md.tmp",
     "Homework Solutions/~syncthing~Homework 11.md.tmp",
     "Excalidraw/~syncthing~Union-Find Data Structure.md.tmp",
     "Homework Solutions/~syncthing~Homework 3.md.tmp",
-    "Classic Algorithms and Data Structures/~syncthing~The Union-Find Data Structure.md.tmp",
-    "Homework Solutions/~syncthing~Homework Solutions.md.tmp"
+    "Classic Algorithms and Data Structures/~syncthing~The Union-Find Data Structure.md.tmp"
   ]
 }
