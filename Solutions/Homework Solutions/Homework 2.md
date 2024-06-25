@@ -1,4 +1,4 @@
-0# Disclaimer
+# Disclaimer
 Use of this solution, in any form and on any graded assignment, without proper citation constitutes an honor violation under the USMA Honor Code. Artifacts have been hidden in the code which will alert your grader that it has been copied. Or maybe they haven't. Best not to risk it though.
 # Problem 1
 You are given an array of individual items for sale, together with a budget. Each item is represented by a pair of (_cost_, _value_). The array is sorted both by cost and by value (meaning that the cost at index `i` is $\leq$ the cost at index `i+1` and the value at index `i` is $\leq$ the value at index `i+1`). Your goal is to purchase two items with the greatest possible combined value, without the combined cost going over your budget. Your function will return the combined value of the purchased pair.

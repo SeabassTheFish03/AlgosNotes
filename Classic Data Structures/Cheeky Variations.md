@@ -24,3 +24,5 @@ Cons2(1, 2,
 )
 ```
 If you take a look at the section on [[#Binomial Heaps]], you'll notice how we can express the heap very concisely using binary, where 0 meant the [[#Binomial Trees|Binomial Tree]] of that size was not included, and 1 meant it was. We can do something very similar, where we can encode the structure of our `CList`. Take the example above. Working from inside to out, we've buried a `Cons1` in a `Cons1`, then buried that in a `Cons2`. If we don't care about the values themselves, we can write that as `2 1 1`, where a `2` means there's a `Cons2`, and `1` means there's a `Cons1`. Even though this uses `1`s and `2`s, it is equivalent to the `0`s and `1`s of a Binomial Heap.
+# The AB List
+Discussion of the AB List introduced in Homework ??

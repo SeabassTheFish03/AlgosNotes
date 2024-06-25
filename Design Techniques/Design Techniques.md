@@ -3,7 +3,6 @@ Algorithms can be designed through multiple different paradigms. Consider these 
 * [[Brute Force]]
 * [[Dynamic Programming]]
 * [[Greedy Algorithms]]
-
 #### Links
 [[CS385 - Algorithms|Course Home]]
 #### Tags

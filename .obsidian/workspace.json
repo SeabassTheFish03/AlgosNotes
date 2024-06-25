@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solutions/Practice Problem Solutions/Brute Force Solutions.md",
+                "file": "Classic Data Structures/Cheeky Variations.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Techniques/Brute Force.md",
+                "file": "Solutions/Practice Problem Solutions/Brute Force Solutions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Design Techniques/Brute Force.md",
+                "file": "Classic Data Structures/Cheeky Variations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Design Techniques/Brute Force.md",
+                "file": "Classic Data Structures/Cheeky Variations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Design Techniques/Brute Force.md"
+                "file": "Classic Data Structures/Cheeky Variations.md"
               }
             }
           }
@@ -160,18 +159,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3c76e5c3cd88ffc4",
+  "active": "7e05aa47955711e2",
   "lastOpenFiles": [
-    "Solutions/Practice Problem Solutions/Brute Force Solutions.md",
+    "Solutions/Homework Solutions/Homework 4.md",
+    "Solutions/Homework Solutions/Homework 3.md",
+    "Solutions/Homework Solutions/Homework 2.md",
+    "Solutions/Homework Solutions/Homework 1.md",
+    "Design Techniques/Greedy Algorithms.md",
+    "Design Techniques/Dynamic Programming.md",
+    "Design Techniques/Design Techniques.md",
     "Design Techniques/Brute Force.md",
+    "Solutions/Practice Problem Solutions/Brute Force Solutions.md",
     "Solutions/Practice Problem Solutions",
     "Solutions",
     "Templates/Concept Page.md",
     "CS385 - Algorithms.md",
     "Templates",
-    "Solutions/Homework Solutions/Homework 3.md",
-    "Solutions/Homework Solutions/Homework 2.md",
-    "Solutions/Homework Solutions/Homework 1.md",
     "Trees.md",
     "Classic Data Structures/Heaps.md",
     "Classic Data Structures/Underlying Data Structures.md",
@@ -186,12 +189,9 @@
     "README.md",
     "Classic Algorithms",
     "Excalidraw/Binomial Heap.md",
-    "Solutions/Homework Solutions/Homework 4.md",
     "Solutions/Homework Solutions/Homework 5.md",
     "LICENSE",
     "Solutions/Homework Solutions/Homework 12.md",
-    "Analysis Techniques/Lower Bound on Sorting.md",
-    "Analysis Techniques/Solving Recurrence Relations.md",
     "Homework Solutions/~syncthing~Homework 1.md.tmp",
     "Classic Algorithms and Data Structures/~syncthing~Graphs and Graph Algorithms.md.tmp",
     "Homework Solutions/~syncthing~Homework 2.md.tmp",

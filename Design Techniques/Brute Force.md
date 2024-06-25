@@ -72,7 +72,7 @@ def shortestDistance(points: Array[Int]): Int =
 			shortest = shortest min distance(points[i], points[j])
 	shortest
 ```
-*Note: Scala allows min to be an infix operator. In this case, it means to take the minimum of shortest and the distance between the two focused points. It saves us an if statement in code, even if there is still one under the hood*
+*Note: Scala allows min to be an infix operator. In this case, it means to take the minimum of shortest and the distance between the two focused points. This provides a readable way to write maxes and mins*
 
 Our **traveler** is a little bit smarter than in previous examples, but only so that it avoids doing the same computation more than once. Rather than checking every point in the array against the focused point at `i`, it instead looks only the subsequent ones. A comparison between `i` and a point earlier in the array would have already been done is a previous iteration of the loop, where the previous point was `i` and the current point was `j`.
 
@@ -95,94 +95,12 @@ The runtime for this example is $O(n^3)$
 # Practice Problems
 ## Problem 1: Word Counter
 **Problem**: Given a *word* and a *document* (both as strings), count how many times the word appears in the document. Assume that the words is not empty, and that capitalization matters. For example, "cat" and "Cat" do not match. Be aware of the possibility that, for some words, multiple occurrences of that word could overlap.
-
 ## Problem 2: Sphere Interior
 **Problem**: Consider points in a three-dimensional grid, that is, coordinates in the form (X, Y, Z), where X, Y, and Z are all integers. Given a *Radius*, count how many grid points lie on or inside a sphere of that radius centered at the origin.
-
-**Solution** (Procedural):
-```
-def sphereInterior(points: Array[(Int, Int, Int)], r: Int): Int =
-	// Runtime: O(n)
-	
-	var count = 0
-	for point <- points do
-		if scala.math.sqrt(point._1^2 + point._2^2 + point._3^2) <= r then count += 1
-	count
-```
-**Solution** (Functional):
-```
-def sphereInterior(points: Array[(Int, Int, Int)], r: Int): Int =
-	// Runtime: O(n)
-	
-	points.count(point => scala.math.sqrt(point._1^2 + point._2^2 + point._3^2) <= r)
-```
 ## Problem 3: Black Square
 **Problem**: Given a black-and-white image as a two-dimensional array of pixels (`0`=black, `1`=white), find the size (number of pixels) of the largest solid black square in the image.
-
-**Solution** (Procedural):
-```
-def blackSquare(grid: Array[Array[Int]]): Int =
-	// Runtime: O(n^4)
-	
-	var size = grid.length min grid(0).length
-
-	def solid(start: (Int, Int), sz: Int): Boolean =
-		if start._1 + sz >= grid.length || start._2 + sz >= grid(0).length then false
-		else
-			for i <- 0 to sz do
-				for j <- 0 to sz do
-					if grid(start._1 + i)(start._2 + j) == 1 then return false
-			true
-			
-	while size > 0 do
-		for i <- 0 until grid.length - size do
-			for j <- 0 until grid(0).length - size do
-				if solid((i, j), size) then return size^2
-		size -= 1
-	0
-```
-**Solution** (Functional):
-```
-def blackSquare(grid: Array[Array[Int]]): Int =
-	// Runtime: O(n^4)
-	
-	def solid(start: (Int, Int), sz: Int): Boolean =
-		if start._1 + sz >= grid.length || start._2 + sz >= grid(0).length then false
-		else
-			(grid.map(_.slice(start._2, start._2 + sz))
-				.slice(start._1, start._1 + sz)
-				.flatten
-				.sum
-			) == 0
-
-	(0 until (grid.length min grid(0).length)).foldRight((0, false))((a, b) =>
-		if b._2 then b
-		else
-			(a,
-				(0 until grid.length - a).map(i =>
-					(0 until grid(0).length - a).map(j =>
-						(i, j)
-					)
-				).foldRight(false)((x, y) => solid(x, a) || y)
-			)
-	)._1
-```
 ## Problem 4: The [0-1 Knapsack Problem](https://en.wikipedia.org/wiki/Knapsack_problem#0-1_knapsack_problem)
 **Problem**: You are a thief, and you are about to bring in the haul of a lifetime. The only problem: you only have enough room in your knapsack for `maxWeight` pounds worth of loot. Given an array of items with their values and weights, find the maximum value you can steal without going over the weight limit. Assume no item has exactly the same weight AND value as another (they may share one or the other, but not both).
-
-**Solution** (Procedural):
-```
-def knapsack(arr: Array[(Int, Int)], maxWeight: Int): Int =
-	var maxValue = 0
-	
-	for i <- 0 until arr.length - 1 do
-		for j <- i until arr.length do 
-			val combWeight = arr(i)(1) + arr(j)(1)
-			
-			if combWeight <= maxWeight then
-				maxValue = maxValue max (arr(i)(0) + arr(j)(0))
-	maxValue
-```
 # Links
 [[Design Techniques|Unit Home]]
 [[CS385 - Algorithms|Course Home]]
