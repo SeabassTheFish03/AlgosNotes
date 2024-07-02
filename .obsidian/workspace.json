@@ -11,8 +11,12 @@
             "id": "ef8423f13846386c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Analysis Techniques/Amortization.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Analysis Techniques/Amortization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Analysis Techniques/Amortization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Analysis Techniques/Amortization.md"
+              }
             }
           }
         ]
@@ -141,10 +149,13 @@
   },
   "active": "ef8423f13846386c",
   "lastOpenFiles": [
+    "Classic Data Structures/Trees.md",
+    "CS385 - Algorithms.md",
     "i.md",
-    "Solutions/Practice Problem Solutions/Brute Force Solutions.md",
     "2024-06-27.md",
+    "Templates/Concept Page.md",
     "Untitled.canvas",
+    "Solutions/Practice Problem Solutions/Brute Force Solutions.md",
     "Design Techniques/Dynamic Programming.md",
     "Design Techniques/Design Techniques.md",
     "Classic Data Structures/Cheeky Variations.md",
@@ -156,10 +167,7 @@
     "Design Techniques/Brute Force.md",
     "Solutions/Practice Problem Solutions",
     "Solutions",
-    "Templates/Concept Page.md",
-    "CS385 - Algorithms.md",
     "Templates",
-    "Trees.md",
     "Classic Data Structures/Heaps.md",
     "Classic Data Structures/Underlying Data Structures.md",
     "Classic Data Structures/The Union-Find Data Structure.md",
@@ -171,7 +179,6 @@
     "Classic Algorithms/Binary Search.md",
     "README.md",
     "Classic Algorithms",
-    "Excalidraw/Binomial Heap.md",
     "LICENSE",
     "Homework Solutions/~syncthing~Homework 1.md.tmp",
     "Classic Algorithms and Data Structures/~syncthing~Graphs and Graph Algorithms.md.tmp",
