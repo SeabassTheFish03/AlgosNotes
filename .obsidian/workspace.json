@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "75030deb6334e552",
+        "id": "76dfcd427e89ce93",
         "type": "tabs",
         "children": [
           {
-            "id": "7e05aa47955711e2",
+            "id": "ef8423f13846386c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classic Data Structures/Cheeky Variations.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c76e5c3cd88ffc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Solutions/Practice Problem Solutions/Brute Force Solutions.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Classic Data Structures/Cheeky Variations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Classic Data Structures/Cheeky Variations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Classic Data Structures/Cheeky Variations.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,17 +139,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e05aa47955711e2",
+  "active": "ef8423f13846386c",
   "lastOpenFiles": [
+    "i.md",
+    "Solutions/Practice Problem Solutions/Brute Force Solutions.md",
+    "2024-06-27.md",
+    "Untitled.canvas",
+    "Design Techniques/Dynamic Programming.md",
+    "Design Techniques/Design Techniques.md",
+    "Classic Data Structures/Cheeky Variations.md",
     "Solutions/Homework Solutions/Homework 4.md",
     "Solutions/Homework Solutions/Homework 3.md",
     "Solutions/Homework Solutions/Homework 2.md",
     "Solutions/Homework Solutions/Homework 1.md",
     "Design Techniques/Greedy Algorithms.md",
-    "Design Techniques/Dynamic Programming.md",
-    "Design Techniques/Design Techniques.md",
     "Design Techniques/Brute Force.md",
-    "Solutions/Practice Problem Solutions/Brute Force Solutions.md",
     "Solutions/Practice Problem Solutions",
     "Solutions",
     "Templates/Concept Page.md",
@@ -178,7 +162,6 @@
     "Trees.md",
     "Classic Data Structures/Heaps.md",
     "Classic Data Structures/Underlying Data Structures.md",
-    "Classic Data Structures/Cheeky Variations.md",
     "Classic Data Structures/The Union-Find Data Structure.md",
     "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
     "Classic Data Structures/Graphs.md",
@@ -189,9 +172,7 @@
     "README.md",
     "Classic Algorithms",
     "Excalidraw/Binomial Heap.md",
-    "Solutions/Homework Solutions/Homework 5.md",
     "LICENSE",
-    "Solutions/Homework Solutions/Homework 12.md",
     "Homework Solutions/~syncthing~Homework 1.md.tmp",
     "Classic Algorithms and Data Structures/~syncthing~Graphs and Graph Algorithms.md.tmp",
     "Homework Solutions/~syncthing~Homework 2.md.tmp",
