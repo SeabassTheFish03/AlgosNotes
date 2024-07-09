@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analysis Techniques/Big-O Notation.md",
+                "file": "Solutions/Homework Solutions/Homework 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis Techniques/Big-O Notation.md",
+                "file": "Solutions/Homework Solutions/Homework 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis Techniques/Big-O Notation.md",
+                "file": "Solutions/Homework Solutions/Homework 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Analysis Techniques/Big-O Notation.md"
+                "file": "Solutions/Homework Solutions/Homework 2.md"
               }
             }
           }
@@ -161,6 +161,10 @@
   },
   "active": "ef8423f13846386c",
   "lastOpenFiles": [
+    "Solutions/Homework Solutions/Homework 3.md",
+    "Solutions/Homework Solutions/Homework 2.md",
+    "Solutions/Homework Solutions/Homework 1.md",
+    "Analysis Techniques/Big-O Notation.md",
     "Analysis Techniques/Analysis Techniques.md",
     "Analysis Techniques/Amortization.md",
     "Solutions/Homework Solutions/Homework 10.md",
@@ -171,8 +175,6 @@
     "Solutions/Homework Solutions/Homework 5.md",
     "Solutions/Homework Solutions/Homework 6.md",
     "Solutions/Homework Solutions/Homework 4.md",
-    "Solutions/Homework Solutions/Homework 2.md",
-    "Solutions/Homework Solutions/Homework 3.md",
     "Solutions/Homework Solutions/Homework 12.md",
     "Classic Data Structures/Heaps.md",
     "Classic Data Structures/Underlying Data Structures.md",
@@ -186,8 +188,6 @@
     "Design Techniques/Dynamic Programming.md",
     "Design Techniques/Design Techniques.md",
     "Classic Data Structures/Cheeky Variations.md",
-    "Solutions/Homework Solutions/Homework 1.md",
-    "Design Techniques/Greedy Algorithms.md",
     "Solutions/Practice Problem Solutions",
     "Solutions",
     "Templates",

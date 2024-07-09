@@ -7,12 +7,14 @@ These simplifications mean that Big-O is not a predictor of how long the algorit
 # Aliases
 When speaking about Big-O, you'll often hear words like "polynomial time" or "linear time" instead of actual Big-O. These are just different names for the same concepts. Here are the most common colloquial terms:
 
-| Algebra     | Name             |
-| ----------- | ---------------- |
-| $O(1)$      | Constant Time    |
-| $O(\log n)$ | Logarithmic Time |
-| $O(n)$      | Linear Time      |
-| $O(n^2)$    | Quadratic Time   |
+| Algebra                | Name             |
+| ---------------------- | ---------------- |
+| $O(1)$                 | Constant Time    |
+| $O(\log n)$            | Logarithmic Time |
+| $O(n)$                 | Linear Time      |
+| $O(n^k)$ (for any $k$) | Polynomial Time  |
+| $O(2^n)$               | Exponential Time |
+| $O(n!)$                | Factorial Time   |
 
 # Other Stuff
 #### Links
