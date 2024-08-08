@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "76dfcd427e89ce93",
+        "id": "75030deb6334e552",
         "type": "tabs",
         "children": [
           {
-            "id": "ef8423f13846386c",
+            "id": "7e05aa47955711e2",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Analysis Techniques/Amortization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "63086e7043be64e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Classic Data Structures/Heaps.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -60,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#design_techniques",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Analysis Techniques/Amortization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Analysis Techniques/Amortization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Analysis Techniques/Amortization.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,44 +139,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ef8423f13846386c",
+  "active": "7e05aa47955711e2",
   "lastOpenFiles": [
-    "Solutions/Homework Solutions/Homework 2.md",
-    "Solutions/Homework Solutions/Homework 3.md",
-    "Solutions/Homework Solutions/Homework 1.md",
-    "Analysis Techniques/Big-O Notation.md",
-    "Analysis Techniques/Analysis Techniques.md",
-    "Analysis Techniques/Amortization.md",
-    "Solutions/Homework Solutions/Homework 10.md",
-    "Solutions/Homework Solutions/Homework 11.md",
+    "Homework Solutions/Homework 3.md",
+    "Templates/Concept Page.md",
+    "Templates",
+    "Solutions/Practice Problem Solutions/Brute Force Solutions.md",
+    "Solutions/Homework Solutions/Homework Solutions.md",
     "Solutions/Homework Solutions/Homework 9.md",
     "Solutions/Homework Solutions/Homework 8.md",
+    "Solutions/Homework Solutions/Homework 6.md",
     "Solutions/Homework Solutions/Homework 7.md",
     "Solutions/Homework Solutions/Homework 5.md",
-    "Solutions/Homework Solutions/Homework 6.md",
     "Solutions/Homework Solutions/Homework 4.md",
+    "Solutions/Homework Solutions/Homework 3.md",
+    "Solutions/Homework Solutions/Homework 2.md",
     "Solutions/Homework Solutions/Homework 12.md",
+    "Solutions/Homework Solutions/Homework 11.md",
+    "Solutions/Homework Solutions/Homework 10.md",
+    "Solutions/Homework Solutions/Homework 1.md",
+    "Solutions/Practice Problem Solutions",
+    "Solutions/Homework Solutions",
+    "Solutions",
+    "Classic Data Structures/Trees.md",
+    "Homework Solutions/Homework 2.md",
+    "Homework Solutions/Homework 1.md",
+    "Trees.md",
     "Classic Data Structures/Heaps.md",
     "Classic Data Structures/Underlying Data Structures.md",
-    "Classic Data Structures/Trees.md",
-    "CS385 - Algorithms.md",
-    "i.md",
-    "2024-06-27.md",
-    "Templates/Concept Page.md",
-    "Untitled.canvas",
-    "Solutions/Practice Problem Solutions/Brute Force Solutions.md",
-    "Design Techniques/Dynamic Programming.md",
-    "Design Techniques/Design Techniques.md",
     "Classic Data Structures/Cheeky Variations.md",
-    "Solutions/Practice Problem Solutions",
-    "Solutions",
-    "Templates",
+    "Classic Data Structures/The Union-Find Data Structure.md",
+    "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
+    "Classic Data Structures/Graphs.md",
     "Classic Algorithms",
     "LICENSE",
     "Homework Solutions/~syncthing~Homework 1.md.tmp",
     "Classic Algorithms and Data Structures/~syncthing~Graphs and Graph Algorithms.md.tmp",
     "Homework Solutions/~syncthing~Homework 2.md.tmp",
-    "Homework Solutions/~syncthing~Homework 11.md.tmp",
-    "Excalidraw/~syncthing~Union-Find Data Structure.md.tmp"
+    "Homework Solutions/~syncthing~Homework 11.md.tmp"
   ]
 }
