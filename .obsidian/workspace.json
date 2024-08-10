@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "75030deb6334e552",
+        "id": "848e0e84d74cf8f1",
         "type": "tabs",
         "children": [
           {
-            "id": "7e05aa47955711e2",
+            "id": "242dca8482968c52",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -141,7 +139,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7e05aa47955711e2",
+  "active": "1848f64646109fc4",
   "lastOpenFiles": [
     "Homework Solutions/Homework 3.md",
     "Templates/Concept Page.md",
