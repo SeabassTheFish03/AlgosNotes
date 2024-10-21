@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS385 - Algorithms.md",
+                "file": "Design Techniques/Dynamic Programming.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CS385 - Algorithms"
+              "title": "Dynamic Programming"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS385 - Algorithms.md",
+                "file": "Design Techniques/Dynamic Programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CS385 - Algorithms"
+              "title": "Backlinks for Dynamic Programming"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS385 - Algorithms.md",
+                "file": "Design Techniques/Dynamic Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CS385 - Algorithms"
+              "title": "Outgoing links from Dynamic Programming"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS385 - Algorithms.md"
+                "file": "Design Techniques/Dynamic Programming.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of CS385 - Algorithms"
+              "title": "Outline of Dynamic Programming"
             }
           }
         ]
@@ -166,6 +166,8 @@
   },
   "active": "e52dc3ca8915408d",
   "lastOpenFiles": [
+    "Design Techniques/Design Techniques.md",
+    "CS385 - Algorithms.md",
     "Homework Solutions/Homework 3.md",
     "Templates/Concept Page.md",
     "Templates",
@@ -194,8 +196,6 @@
     "Classic Data Structures/Underlying Data Structures.md",
     "Classic Data Structures/Cheeky Variations.md",
     "Classic Data Structures/The Union-Find Data Structure.md",
-    "Classic Data Structures/The Seven Deadly Sins of Arrays and Lists.md",
-    "Classic Data Structures/Graphs.md",
     "Classic Algorithms",
     "LICENSE",
     "Homework Solutions/~syncthing~Homework 1.md.tmp",
